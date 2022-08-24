@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "tic_tac_toe"
+
+puts "Welcome to Tic Tac Toe!"
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+puts row = ["#{board[0]} | #{board[1]} | #{board[2]} "]
+puts separator = "-----------"
+puts row = ["#{board[3]} | #{board[4]} | #{board[5]}"]
+puts separator
+puts row = ["#{board[6]} | #{board[7]} | #{board[8]}"]
+
+play(board)
